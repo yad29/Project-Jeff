@@ -8,14 +8,17 @@ body, html {
     height: 100vh;
 }
 
-.hero-image {
-    /* This is your opening image. You will need to change el1.jpg to something of your choice*/
-    
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("beach.jpg");
+#home {
+  background-image: url("../img/background.png/");
     height: 100%;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;      
-  }
+}
+
+/* #TODO: Make navbar Pitt Royal Blue and Gold */
+nav-bg {
+  background-color: rgb(65, 105, 225, 1);
+}
