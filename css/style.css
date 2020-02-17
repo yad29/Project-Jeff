@@ -5,7 +5,7 @@ body, html {
 }
 
 #home {
-  background-image: url("../img/background.png/");
+  background-image: url("../img/background.png");
     height: 100%;
     background-attachment: fixed;
     background-position: center;
@@ -15,12 +15,6 @@ body, html {
 }
 
 /* #TODO: Make navbar Pitt Royal Blue and Gold */
-.navbar-def {
-  color: gold;
-  background-color: royalblue;
+nav-bg {
+  background-color: rgb(65, 105, 225, 1);
 }
-
-/* #TODO: Edit navbar to script gold - maybe change font */
-
-
-/* #TODO: Create Three Parallax Sections */
