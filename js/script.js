@@ -4,7 +4,12 @@
 //event listener
 
 document.querySelector("column").addEventListener('touchstart', touchStart);
-function touchStart(eventObject) {
-    e.preventDefault();
+document.querySelector("column").addEventListener('touchend',touchEnd)
+function touchStart(ev) {
+    ev.preventDefault();
 
+}
+
+function touchEnd(ev) {
+    e
 }
